@@ -75,8 +75,8 @@ class Song
 
   def self.genre_count
     binding.pry
-    @@genres.each do |name|
-      @@genre_count[:name] = 
+    @@genres.uniq.each do |name|
+      @@genre_count[:name] =
     end
   end
 
