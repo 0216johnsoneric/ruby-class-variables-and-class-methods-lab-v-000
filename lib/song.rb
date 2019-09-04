@@ -96,6 +96,3 @@ require 'pry'
 #     end
 #     @@artist_count
 #   end
-
-
-end
