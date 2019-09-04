@@ -98,7 +98,12 @@ require 'pry'
 #   end
 
 class Song
-  attr_accessor :name, :artist, :genre 
+  attr_accessor :name, :artist, :genre
+
+  def initailze(name, artist, genre)
+    @name = name
+    @artist = artist
+    @genre = gernre 
 
 
 end
