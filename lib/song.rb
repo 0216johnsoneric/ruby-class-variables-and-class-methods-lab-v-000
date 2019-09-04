@@ -78,6 +78,9 @@ class Song
     @@genres.uniq.each do |name|
       @@genre_count[:name] = 0
     end
+    @@genres.each do |name|
+      @@genre_count[:name] += 1
+    end
   end
 
 end
