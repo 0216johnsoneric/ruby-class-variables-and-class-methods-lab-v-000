@@ -103,7 +103,8 @@ class Song
   def initailze(name, artist, genre)
     @name = name
     @artist = artist
-    @genre = gernre 
+    @genre = gernre
+  end
 
 
 end
