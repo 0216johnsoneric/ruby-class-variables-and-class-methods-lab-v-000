@@ -96,3 +96,9 @@ require 'pry'
 #     end
 #     @@artist_count
 #   end
+
+class Song
+  attr_accessor :name, :artist, :genre 
+
+
+end
