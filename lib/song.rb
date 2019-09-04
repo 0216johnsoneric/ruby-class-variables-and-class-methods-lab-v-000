@@ -76,10 +76,10 @@ class Song
   def self.genre_count
     # binding.pry
     @@genres.uniq.each do |name|
-      @@genre_count[:name] = 0
+      @@genre_count[name] = 0
     end
     @@genres.each do |name|
-      @@genre_count[:name] += 1
+      @@genre_count[name] += 1
     end
     @@genre_count
   end
