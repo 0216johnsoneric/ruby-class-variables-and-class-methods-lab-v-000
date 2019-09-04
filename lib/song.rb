@@ -43,7 +43,7 @@
 #      @@artist_count
 #   end
 # end
-
+require 'pry'
 class Song
   attr_accessor :name, :artist, :genre
   @@count = 0
@@ -75,7 +75,7 @@ class Song
 
   def self.genre_count
     @@genres.each do |name|
-      
+      @genre_count[:name]
   end
 
 end
